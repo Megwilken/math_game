@@ -13,7 +13,6 @@ Both players start with 3 lives. They lose a life if they mis-answer a question.
 - Game
 - Player
 - Question
-- Turn
 
 ## Roles for each class
 - Game
@@ -30,10 +29,6 @@ Both players start with 3 lives. They lose a life if they mis-answer a question.
 - Question
   - generate_question
   - check_answer
-- Turn
-  - start
-  - end
-  - summary
 
 ## Methods for each class
 - Game
@@ -52,8 +47,6 @@ Both players start with 3 lives. They lose a life if they mis-answer a question.
 - Player
   - name
     - return the name of the player
-  - lives
-    - return the number of lives of the player
   - lose_life
     - decrease the number of lives by 1
   - summary
@@ -68,6 +61,5 @@ Both players start with 3 lives. They lose a life if they mis-answer a question.
     - start the turn
   - end
     - end the turn
-  - summary
-    - print out the summary of the turn
+
 
